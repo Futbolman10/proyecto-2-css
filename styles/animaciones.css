@@ -1,0 +1,43 @@
+.caja {
+    margin: 0 25px;
+    border: 3px solid black;
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+h4 {
+    margin-left: 25px;
+}
+
+@keyframes ejemplo {
+    from {
+        left: 0px;
+        background-color: #F8EDE3;
+    }
+
+    to {
+        left: 300px;
+        background-color: #C5705D;
+    }
+}
+
+.linear {
+    animation: ejemplo 3s linear infinite alternate;
+}
+
+.ease {
+    animation: ejemplo 3s ease infinite alternate;
+}
+
+.ease-in {
+    animation: ejemplo 3s ease-in infinite alternate;
+}
+
+.ease-out {
+    animation: ejemplo 3s ease-out infinite alternate;
+}
+
+.ease-in-out {
+    animation: ejemplo 3s ease-in-out infinite alternate;
+}

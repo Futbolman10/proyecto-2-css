@@ -1,0 +1,114 @@
+.conteiner {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.conteiner>div {
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 15px;
+}
+
+.conteiner3 {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.conteiner3>div {
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 15px;
+}
+
+.conteiner5 {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.conteiner5>div {
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 15px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+h3 {
+    text-align: center;
+    margin: 50px 0 15px 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+.overline {
+    text-decoration: overline;
+}
+
+.line-trough {
+    text-decoration: line-through;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.overline-underline {
+    text-decoration: overline underline;
+}
+
+.upercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
+
+.monospace {
+    font-family: monospace;
+}
+
+.cursive {
+    font-family: cursive;
+}
+
+.fantasy {
+    font-family: fantasy;
+}

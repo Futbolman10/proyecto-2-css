@@ -1,0 +1,32 @@
+.conteiner3 {
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 15px;
+    justify-content: space-evenly;
+}
+
+.conteiner3>div {
+    width: 25vw;
+    height: 45vh;
+    margin: 15px;
+    padding: 15px;
+    border: 3px solid black;
+}
+
+
+h4 {
+    text-align: center;
+}
+
+.plano {
+    background-color: #89A8B2;
+}
+
+.gradiente {
+    background: linear-gradient(to right, #A6AEBF, #C5D3E8, #D0E8C5, #FFF8DE);
+}
+
+.imagen{
+    background-image: url(/amanecer.jpg);
+}
